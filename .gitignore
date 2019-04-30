@@ -2,3 +2,7 @@ Carthage
 *.xccheckout
 .DS_Store
 xcuserdata
+/ios-test-errors.log
+/ios-test.log
+/macos-test-errors.log
+/macos-test.log
