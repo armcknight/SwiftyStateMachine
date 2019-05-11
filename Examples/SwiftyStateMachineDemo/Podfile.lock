@@ -1,0 +1,29 @@
+PODS:
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+  - SwiftyStateMachine (1.0.0)
+  - SwiftyStateMachine/Tests (1.0.0):
+    - Nimble
+    - Quick
+
+DEPENDENCIES:
+  - SwiftyStateMachine (from `../..`)
+  - SwiftyStateMachine/Tests (from `../..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  SwiftyStateMachine:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  SwiftyStateMachine: a8378144e2f1088034e2f7c5d9d157a1cb7c0022
+
+PODFILE CHECKSUM: 9902350e5b690193edd5617f8b8eb826a31e5c8e
+
+COCOAPODS: 1.6.1

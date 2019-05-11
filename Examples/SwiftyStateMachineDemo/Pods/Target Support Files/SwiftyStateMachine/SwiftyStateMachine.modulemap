@@ -1,0 +1,6 @@
+framework module SwiftyStateMachine {
+  umbrella header "SwiftyStateMachine-umbrella.h"
+
+  export *
+  module * { export * }
+}
