@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = { "Maciej Konieczny" => "hello@narf.pl" }
   s.social_media_url   = "https://twitter.com/narfdotpl"
   s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
+  s.osx.deployment_target = "10.10"
   s.source       = { :git => "https://github.com/armcknight/SwiftyStateMachine.git", :tag => "#{s.version}" }
   s.source_files = "StateMachine/*.swift"
   s.test_spec 'Tests' do |test_spec|
@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
     test_spec.dependency 'Nimble'
   end
   s.requires_arc = true
+  s.swift_version = '5.0'
 end
