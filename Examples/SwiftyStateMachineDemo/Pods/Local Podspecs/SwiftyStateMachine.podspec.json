@@ -10,14 +10,15 @@
   "social_media_url": "https://twitter.com/narfdotpl",
   "platforms": {
     "ios": "8.0",
-    "osx": "10.9"
+    "osx": "10.10"
   },
   "source": {
-    "git": "https://github.com/macoscope/SwiftyStateMachine.git",
+    "git": "https://github.com/armcknight/SwiftyStateMachine.git",
     "tag": "1.0.0"
   },
   "source_files": "StateMachine/*.swift",
   "requires_arc": true,
+  "swift_version": "5.0",
   "testspecs": [
     {
       "name": "Tests",

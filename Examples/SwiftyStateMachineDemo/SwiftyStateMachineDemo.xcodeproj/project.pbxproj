@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00662AA937CB51F6384F3EEE /* Pods_SwiftyStateMachineDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D655777B82F32AFF7CEB39F3 /* Pods_SwiftyStateMachineDemo.framework */; };
+		1999805424A0F322FA767867 /* Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CF793342CE0112CD169E6F /* Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework */; };
+		7C5872014C4FF4406370074F /* Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE75C78C590B4F2361819E61 /* Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework */; };
 		E65BFB7922864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BFB7822864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.swift */; };
+		E65BFB872286BA1200CF7F8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BFB862286BA1200CF7F8A /* AppDelegate.swift */; };
+		E65BFB892286BA1200CF7F8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BFB882286BA1200CF7F8A /* ViewController.swift */; };
+		E65BFB8B2286BA1300CF7F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65BFB8A2286BA1300CF7F8A /* Assets.xcassets */; };
+		E65BFB8E2286BA1300CF7F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65BFB8C2286BA1300CF7F8A /* Main.storyboard */; };
 		E677BA1B2277D120009210D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E677BA1A2277D120009210D4 /* AppDelegate.swift */; };
 		E677BA1D2277D120009210D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E677BA1C2277D120009210D4 /* ViewController.swift */; };
 		E677BA202277D120009210D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E677BA1E2277D120009210D4 /* Main.storyboard */; };
@@ -27,12 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5EE12EA14DE129B555A8ED65 /* Pods-SwiftyStateMachineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8E0395F6382F3729BABA56C0 /* Pods-SwiftyStateMachineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		D655777B82F32AFF7CEB39F3 /* Pods_SwiftyStateMachineDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyStateMachineDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D7685BFA53E8F733BD7D9B /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemoPods-Demo-macOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemoPods-Demo-macOS/Pods-SwiftyStateMachineDemoPods-Demo-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		2647CE514347749EC5F4B478 /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemoPods-Demo-macOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemoPods-Demo-macOS/Pods-SwiftyStateMachineDemoPods-Demo-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		314688A93A85B78337A8D2DC /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		50CF793342CE0112CD169E6F /* Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C9E353ACC27B23BC14F5A9 /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE75C78C590B4F2361819E61 /* Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65BFB7622864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyStateMachineDemoDiagramGenerator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65BFB7822864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStateMachineDemoDiagramGenerator.swift; sourceTree = "<group>"; };
 		E65BFB7A22864FFF00CF7F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65BFB842286BA1200CF7F8A /* Demo-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65BFB862286BA1200CF7F8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E65BFB882286BA1200CF7F8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E65BFB8A2286BA1300CF7F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E65BFB8D2286BA1300CF7F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E65BFB8F2286BA1300CF7F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65BFB902286BA1300CF7F8A /* Demo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo_macOS.entitlements; sourceTree = "<group>"; };
 		E677BA172277D120009210D4 /* SwiftyStateMachineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyStateMachineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E677BA1A2277D120009210D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E677BA1C2277D120009210D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,32 +65,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E65BFB812286BA1200CF7F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1999805424A0F322FA767867 /* Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E677BA142277D120009210D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00662AA937CB51F6384F3EEE /* Pods_SwiftyStateMachineDemo.framework in Frameworks */,
+				7C5872014C4FF4406370074F /* Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D8958C274C1CFD9475BB7AB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D655777B82F32AFF7CEB39F3 /* Pods_SwiftyStateMachineDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AB1F79EEFD09BCEAC3A27568 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8E0395F6382F3729BABA56C0 /* Pods-SwiftyStateMachineDemo.debug.xcconfig */,
-				5EE12EA14DE129B555A8ED65 /* Pods-SwiftyStateMachineDemo.release.xcconfig */,
+				2647CE514347749EC5F4B478 /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.debug.xcconfig */,
+				15D7685BFA53E8F733BD7D9B /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.release.xcconfig */,
+				314688A93A85B78337A8D2DC /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.debug.xcconfig */,
+				A1C9E353ACC27B23BC14F5A9 /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFA636EC553AB1009FF831D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CF793342CE0112CD169E6F /* Pods_SwiftyStateMachineDemoPods_Demo_macOS.framework */,
+				CE75C78C590B4F2361819E61 /* Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E65BFB7722864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator */ = {
@@ -87,14 +113,28 @@
 			path = SwiftyStateMachineDemoDiagramGenerator;
 			sourceTree = "<group>";
 		};
+		E65BFB852286BA1200CF7F8A /* Demo-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E65BFB862286BA1200CF7F8A /* AppDelegate.swift */,
+				E65BFB882286BA1200CF7F8A /* ViewController.swift */,
+				E65BFB8A2286BA1300CF7F8A /* Assets.xcassets */,
+				E65BFB8C2286BA1300CF7F8A /* Main.storyboard */,
+				E65BFB8F2286BA1300CF7F8A /* Info.plist */,
+				E65BFB902286BA1300CF7F8A /* Demo_macOS.entitlements */,
+			);
+			path = "Demo-macOS";
+			sourceTree = "<group>";
+		};
 		E677BA0E2277D120009210D4 = {
 			isa = PBXGroup;
 			children = (
 				E677BA192277D120009210D4 /* SwiftyStateMachineDemo */,
 				E65BFB7722864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator */,
+				E65BFB852286BA1200CF7F8A /* Demo-macOS */,
 				E677BA182277D120009210D4 /* Products */,
 				AB1F79EEFD09BCEAC3A27568 /* Pods */,
-				7D8958C274C1CFD9475BB7AB /* Frameworks */,
+				AFA636EC553AB1009FF831D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +143,7 @@
 			children = (
 				E677BA172277D120009210D4 /* SwiftyStateMachineDemo.app */,
 				E65BFB7622864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.xctest */,
+				E65BFB842286BA1200CF7F8A /* Demo-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,15 +182,34 @@
 			productReference = E65BFB7622864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E65BFB832286BA1200CF7F8A /* Demo-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65BFB932286BA1300CF7F8A /* Build configuration list for PBXNativeTarget "Demo-macOS" */;
+			buildPhases = (
+				89C6608E93837DF7FF158DB2 /* [CP] Check Pods Manifest.lock */,
+				E65BFB802286BA1200CF7F8A /* Sources */,
+				E65BFB812286BA1200CF7F8A /* Frameworks */,
+				E65BFB822286BA1200CF7F8A /* Resources */,
+				91EC0D63CE28242ECBE9EA0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-macOS";
+			productName = "Demo-macOS";
+			productReference = E65BFB842286BA1200CF7F8A /* Demo-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E677BA162277D120009210D4 /* SwiftyStateMachineDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E677BA292277D121009210D4 /* Build configuration list for PBXNativeTarget "SwiftyStateMachineDemo" */;
 			buildPhases = (
-				06C38F2B21F4BAF235E19A10 /* [CP] Check Pods Manifest.lock */,
+				D7742E644C6A1D6DF4F4BDBC /* [CP] Check Pods Manifest.lock */,
 				E677BA132277D120009210D4 /* Sources */,
 				E677BA142277D120009210D4 /* Frameworks */,
 				E677BA152277D120009210D4 /* Resources */,
-				50B07C61EBAB2B16059F2627 /* [CP] Embed Pods Frameworks */,
+				0D4E2713323FBD17343B6AAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +234,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = E677BA162277D120009210D4;
 					};
+					E65BFB832286BA1200CF7F8A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					E677BA162277D120009210D4 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -194,6 +257,7 @@
 			targets = (
 				E677BA162277D120009210D4 /* SwiftyStateMachineDemo */,
 				E65BFB7522864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator */,
+				E65BFB832286BA1200CF7F8A /* Demo-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +267,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65BFB822286BA1200CF7F8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65BFB8B2286BA1300CF7F8A /* Assets.xcassets in Resources */,
+				E65BFB8E2286BA1300CF7F8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +292,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06C38F2B21F4BAF235E19A10 /* [CP] Check Pods Manifest.lock */ = {
+		0D4E2713323FBD17343B6AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStateMachine-iOS/SwiftyStateMachine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStateMachine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C6608E93837DF7FF158DB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,14 +329,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftyStateMachineDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyStateMachineDemoPods-Demo-macOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50B07C61EBAB2B16059F2627 /* [CP] Embed Pods Frameworks */ = {
+		91EC0D63CE28242ECBE9EA0F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,8 +344,8 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyStateMachine/SwiftyStateMachine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemoPods-Demo-macOS/Pods-SwiftyStateMachineDemoPods-Demo-macOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStateMachine-macOS/SwiftyStateMachine.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -260,7 +355,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemo/Pods-SwiftyStateMachineDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyStateMachineDemoPods-Demo-macOS/Pods-SwiftyStateMachineDemoPods-Demo-macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7742E644C6A1D6DF4F4BDBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -271,6 +388,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65BFB7922864FFF00CF7F8A /* SwiftyStateMachineDemoDiagramGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65BFB802286BA1200CF7F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65BFB892286BA1200CF7F8A /* ViewController.swift in Sources */,
+				E65BFB872286BA1200CF7F8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +420,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E65BFB8C2286BA1300CF7F8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65BFB8D2286BA1300CF7F8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E677BA1E2277D120009210D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +482,50 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyStateMachineDemo.app/SwiftyStateMachineDemo";
+			};
+			name = Release;
+		};
+		E65BFB912286BA1300CF7F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2647CE514347749EC5F4B478 /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Demo-macOS/Demo_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E65BFB922286BA1300CF7F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D7685BFA53E8F733BD7D9B /* Pods-SwiftyStateMachineDemoPods-Demo-macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Demo-macOS/Demo_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -469,7 +647,7 @@
 		};
 		E677BA2A2277D121009210D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E0395F6382F3729BABA56C0 /* Pods-SwiftyStateMachineDemo.debug.xcconfig */;
+			baseConfigurationReference = 314688A93A85B78337A8D2DC /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,7 +665,7 @@
 		};
 		E677BA2B2277D121009210D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EE12EA14DE129B555A8ED65 /* Pods-SwiftyStateMachineDemo.release.xcconfig */;
+			baseConfigurationReference = A1C9E353ACC27B23BC14F5A9 /* Pods-SwiftyStateMachineDemoPods-SwiftyStateMachineDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +689,15 @@
 			buildConfigurations = (
 				E65BFB7D22864FFF00CF7F8A /* Debug */,
 				E65BFB7E22864FFF00CF7F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65BFB932286BA1300CF7F8A /* Build configuration list for PBXNativeTarget "Demo-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65BFB912286BA1300CF7F8A /* Debug */,
+				E65BFB922286BA1300CF7F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo : NSObject
+@end
+@implementation PodsDummy_Pods_SwiftyStateMachineDemoPods_SwiftyStateMachineDemo
+@end

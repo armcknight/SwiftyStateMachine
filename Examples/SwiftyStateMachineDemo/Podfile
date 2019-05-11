@@ -1,7 +1,13 @@
 install! 'cocoapods', :share_schemes_for_development_pods => true
 
-target 'SwiftyStateMachineDemo' do
-  platform :ios, '12.2'
+abstract_target 'SwiftyStateMachineDemoPods' do
   use_frameworks!
   pod 'SwiftyStateMachine', path: '../..', :testspecs => ['Tests']
+
+  target 'SwiftyStateMachineDemo' do
+    platform :ios, '12.2'
+  end
+  target 'Demo-macOS' do
+    platform :osx, '10.14'
+  end
 end

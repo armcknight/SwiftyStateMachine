@@ -1,0 +1,6 @@
+framework module Pods_SwiftyStateMachineDemoPods_Demo_macOS {
+  umbrella header "Pods-SwiftyStateMachineDemoPods-Demo-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
