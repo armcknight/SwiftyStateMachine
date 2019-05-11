@@ -26,6 +26,12 @@ public extension DOTLabelable {
     }
 }
 
+public extension DOTLabelable where Self: CaseIterable {
+    static var DOTLabelableItems: [Self] {
+        return allCases as? [Self] ?? []
+    }
+}
+
 
 /// A state machine schema with a graph of the state machine in the [DOT graph
 /// description language][DOT].
