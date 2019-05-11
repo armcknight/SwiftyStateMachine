@@ -23,12 +23,20 @@ public protocol StateMachineSchemaType {
     associatedtype Event
     associatedtype Subject
 
+    /// Type of function that the state machine executes (if provided; it's optional) as part of performing a legal transition. Runs before `didTransitionCallback` and gets a reference to the `Subject`.
+    typealias TransitionClosure = (Subject) -> ()
+
+    /// The result of a legal transition, containing the resulting `State` and an optional block of logic to execute with a reference to the `Subject`.
+    typealias TransitionTuple = (State, TransitionClosure?)
+
+    /// Type of function that accepts a current `State` and an `Event`, and returns either `nil` if it's an illegal transition, or a tuple containing the result `State` and an optional block of logic to execute with a reference to the `Subject`.
+    typealias TransitionLogic = (State, Event) -> TransitionTuple?
+
     var initialState: State { get }
-    var transitionLogic: (State, Event) -> (State, ((Subject) -> ())?)? { get }
+    var transitionLogic: TransitionLogic { get }
 
-    init(initialState: State, transitionLogic: @escaping (State, Event) -> (State, ((Subject) -> ())?)?)
+    init(initialState: State, transitionLogic: @escaping TransitionLogic)
 }
-
 
 /// A state machine schema conforming to the `StateMachineSchemaType`
 /// protocol.  See protocol documentation for more information.
@@ -38,9 +46,9 @@ public struct StateMachineSchema<A, B, C>: StateMachineSchemaType {
     public typealias Subject = C
 
     public let initialState: State
-    public let transitionLogic: (State, Event) -> (State, ((Subject) -> ())?)?
+    public let transitionLogic: TransitionLogic
 
-    public init(initialState: State, transitionLogic: @escaping (State, Event) -> (State, ((Subject) -> ())?)?) {
+    public init(initialState: State, transitionLogic: @escaping TransitionLogic) {
         self.initialState = initialState
         self.transitionLogic = transitionLogic
     }
